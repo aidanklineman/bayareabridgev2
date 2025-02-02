@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Bay Area Bridges</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="content">
+        <h1>Bay Area Bridges</h1>
+    </div>
+    <div class="content">
+        <button onclick="document.getElementById('richmond-sr').scrollIntoView()">Richmond-San Rafael</button>
+        <button onclick="document.getElementById('golden-gate').scrollIntoView()">Golden Gate</button>
+        <button onclick="document.getElementById('sf-oakland').scrollIntoView()">San Francisco-Oakland Bay</button>
+        <button onclick="document.getElementById('san-mateo').scrollIntoView()">San Mateo-Hayward</button>
+        <button onclick="document.getElementById('dumbarton').scrollIntoView()">Dumbarton</button>
+    </div>
+
+    <div class="content">
+        <div class="bridge-section" id="richmond-sr">
+        <h2>Richmond-San Rafael Bridge</h2>
+        <img src="richmond-san-rafael.jpg" alt="Richmond-San Rafael Bridge">
+        <img src="sanrafaelmap.png" alt="Richmond-San Rafael Bridge Map">
+        <h3>The Richmond-San Rafael Bridge, completed in 1956, spans the San Francisco Bay, connecting Marin County to Contra Costa County. Initially designed to accommodate increasing post-World War II traffic, this bridge has undergone several renovations and expansions, including the addition of a pedestrian and bike path. Its two-deck structure offers stunning views of the bay, contributing to its iconic status.</h3>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="bridge-section" id="golden-gate">
+        <h2>Golden Gate Bridge</h2>
+        <img src="golden-gate.jpg" alt="Golden Gate Bridge">
+        <img src="goldengatemap.png" alt="Golden Gate Bridge Map">
+        <h3>Opened in 1937, the Golden Gate Bridge is an internationally recognized symbol of San Francisco and engineering marvel of its time. It was the longest and tallest suspension bridge upon completion, spanning the Golden Gate strait to connect the city to Marin County. Known for its striking International Orange color, the bridge is a testament to innovative design and has become a beloved tourist destination.</h3>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="bridge-section" id="sf-oakland">
+        <h2>San Francisco-Oakland Bay Bridge</h2>
+        <img src="sf-oakland.jpg" alt="San Francisco-Oakland Bay Bridge">
+        <img src="sf-oaklandmap.png" alt="Bay Bridge Map">
+        <h3>Commonly known as the Bay Bridge, this structure actually consists of two major spans connecting San Francisco and Oakland, opened in 1936. The eastern span was rebuilt and reopened in 2013 following damage from the 1989 Loma Prieta earthquake. The Bay Bridge is a critical artery for commuters and features a unique, self-anchored suspension bridge design on the eastern span.</h3>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="bridge-section" id="san-mateo">
+        <h2>San Mateo-Hayward Bridge</h2>
+        <img src="san-mateo.jpg" alt="San Mateo-Hayward Bridge">
+        <img src="sanmateomap.png" alt="San Mateo-Hayward Bridge Map">
+        <h3>The San Mateo-Hayward Bridge, completed in 1967, stretches across the San Francisco Bay, linking the San Mateo Peninsula with the East Bay. As the longest bridge in California, it serves as a vital route for commuters and goods. Its original structure, built in 1929, was replaced to accommodate modern traffic demands, providing essential connectivity between these two regions.</h3>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="bridge-section" id="dumbarton">
+        <h2>Dumbarton Bridge</h2>
+        <img src="dumbarton.jpg" alt="Dumbarton Bridge">
+        <img src="dumbartonmap.png" alt="Dumbarton Bridge Map">
+        <h3>The Dumbarton Bridge, bridging the southern part of San Francisco Bay, connects the cities of Menlo Park and Fremont. First opened in 1927 as a privately operated venture, the current bridge was completed in 1982 to increase capacity. It holds the distinction of being the southernmost bridge in the Bay and provides an important connection for both vehicular and pedestrian traffic.</h3>
+        </div>
+    </div>
+    
+  </body>
 </html>
