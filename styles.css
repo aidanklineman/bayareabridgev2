@@ -1,0 +1,31 @@
+body {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: blue;
+    color: white;
+  }
+
+  .bridge-section {
+    margin: 20px;
+    width:420px;
+  }
+  img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
